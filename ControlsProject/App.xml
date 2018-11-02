@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <product>
+    <Id>1001</Id>
+    <Name>Television</Name>
+  </product>
+  <product>
+    <Id>1002</Id>
+    <Name>Mobile</Name>
+  </product>
+  <product>
+    <Id>1003</Id>
+    <Name>Laptop</Name>
+  </product>
+  <product>
+    <Id>1004</Id>
+    <Name>Refrigator</Name>
+  </product>
+  <product>
+    <Id>1005</Id>
+    <Name>Air Cooler</Name>
+  </product>
+</products>
