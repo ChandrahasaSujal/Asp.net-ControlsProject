@@ -102,7 +102,12 @@
     <Content Include="ContactDetails.aspx" />
     <Content Include="FailurePage.aspx" />
     <Content Include="FileUploadDemo.aspx" />
+    <Content Include="FileUploadMultiple.aspx" />
     <Content Include="FileUploadWithCondtions.aspx" />
+    <Content Include="Images\fb.png" />
+    <Content Include="Images\google.png" />
+    <Content Include="Images\microsoft.png" />
+    <Content Include="Images\twitter.png" />
     <Content Include="ListControls.aspx" />
     <Content Include="LoadingDataListControls.aspx" />
     <Content Include="Login.aspx" />
@@ -169,6 +174,13 @@
     </Compile>
     <Compile Include="FileUploadDemo.aspx.designer.cs">
       <DependentUpon>FileUploadDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileUploadMultiple.aspx.cs">
+      <DependentUpon>FileUploadMultiple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUploadMultiple.aspx.designer.cs">
+      <DependentUpon>FileUploadMultiple.aspx</DependentUpon>
     </Compile>
     <Compile Include="FileUploadWithCondtions.aspx.cs">
       <DependentUpon>FileUploadWithCondtions.aspx</DependentUpon>

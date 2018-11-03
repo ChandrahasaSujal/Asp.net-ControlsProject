@@ -30,7 +30,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Selected Item" OnClick="Button1_Click" />
+                        <asp:Button ID="Button1" runat="server" Text="Selected Item" OnClick="Button1_Click" style="height: 26px" />
                     </td>
                     <td>
                         <asp:Button ID="Button2" runat="server" Text="Selected Item" OnClick="Button2_Click" />
@@ -39,7 +39,7 @@
                         <asp:Button ID="Button3" runat="server" Text="Selected Item" OnClick="Button3_Click" />
                     </td>
                     <td>
-                        <asp:Button ID="Button4" runat="server" Text="Selected Item" />
+                        <asp:Button ID="Button4" runat="server" Text="Selected Item" OnClick="Button4_Click" />
                     </td>
                 </tr>
                 <tr>

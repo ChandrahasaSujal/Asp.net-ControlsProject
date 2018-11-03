@@ -54,10 +54,23 @@ namespace ControlsProject
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            foreach(ListItem li in ListBox1.Items)
+            Label3.Text = "";
+            foreach (int i in ListBox1.GetSelectedIndices())
             {
-                
-                    Label3.Text = li.Text + ": " + li.Value + "<br />";
+                ListItem li = ListBox1.Items[i];
+                Label3.Text+= li.Value + ":" + li.Text + "<br />";
+            }
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Label4.Text = "";
+            foreach(ListItem li in CheckBoxList1.Items)
+            {
+                if(li.Selected)
+                {
+                    Label4.Text += li.Value + ":" + li.Text+"<br />";
+                }
             }
         }
     }
