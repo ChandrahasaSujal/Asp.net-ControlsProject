@@ -95,6 +95,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ads.aspx" />
+    <Content Include="Ads.xml" />
     <Content Include="App.xml" />
     <Content Include="Calculator.aspx" />
     <Content Include="CaptureDetails.aspx" />
@@ -104,6 +106,7 @@
     <Content Include="FileUploadDemo.aspx" />
     <Content Include="FileUploadMultiple.aspx" />
     <Content Include="FileUploadWithCondtions.aspx" />
+    <Content Include="HomePage.html" />
     <Content Include="Images\fb.png" />
     <Content Include="Images\google.png" />
     <Content Include="Images\microsoft.png" />
@@ -125,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Pages.aspx" />
     <Content Include="RadioAndCheck.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -133,6 +137,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ads.aspx.cs">
+      <DependentUpon>Ads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ads.aspx.designer.cs">
+      <DependentUpon>Ads.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Calculator.aspx.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -219,6 +230,13 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages.aspx.cs">
+      <DependentUpon>Pages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages.aspx.designer.cs">
+      <DependentUpon>Pages.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RadioAndCheck.aspx.cs">

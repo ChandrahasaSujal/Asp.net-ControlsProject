@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/microsoft.png</ImageUrl>
+    <NavigateUrl>https://www.microsoft.com</NavigateUrl>
+    <AlternateText>Reach us at www.microsoft.com</AlternateText>
+    <Impression>10</Impression>
+    <Keyword>ADC</Keyword>
+  </Ad>
+<Ad>
+    <ImageUrl>~/Images/google.png</ImageUrl>
+    <NavigateUrl>https://www.google.com</NavigateUrl>
+    <AlternateText>Reach us at www.google.com</AlternateText>
+    <Impression>8</Impression>
+    <Keyword>ADC</Keyword>
+  </Ad>
+<Ad>
+    <ImageUrl>~/Images/fb.png</ImageUrl>
+    <NavigateUrl>https://www.facebook.com</NavigateUrl>
+    <AlternateText>Reach us at www.facebook.com</AlternateText>
+    <Impression>6</Impression>
+    <Keyword>SNC</Keyword>
+  </Ad>
+<Ad>
+    <ImageUrl>~/Images/twitter.png</ImageUrl>
+    <NavigateUrl>https://www.twitter.com</NavigateUrl>
+    <AlternateText>Reach us at www.twitter.com</AlternateText>
+    <Impression>4</Impression>
+    <Keyword>SNC</Keyword>
+  </Ad>
+</Advertisements>
