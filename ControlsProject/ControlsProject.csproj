@@ -99,6 +99,7 @@
     <Content Include="Ads.xml" />
     <Content Include="App.xml" />
     <Content Include="Calculator.aspx" />
+    <Content Include="CalendarDemo.aspx" />
     <Content Include="CaptureDetails.aspx" />
     <Content Include="ColorChanger.aspx" />
     <Content Include="ContactDetails.aspx" />
@@ -107,6 +108,7 @@
     <Content Include="FileUploadMultiple.aspx" />
     <Content Include="FileUploadWithCondtions.aspx" />
     <Content Include="HomePage.html" />
+    <Content Include="Icons\calendar_view_week.png" />
     <Content Include="Images\fb.png" />
     <Content Include="Images\google.png" />
     <Content Include="Images\microsoft.png" />
@@ -150,6 +152,13 @@
     </Compile>
     <Compile Include="Calculator.aspx.designer.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarDemo.aspx.cs">
+      <DependentUpon>CalendarDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalendarDemo.aspx.designer.cs">
+      <DependentUpon>CalendarDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="CaptureDetails.aspx.cs">
       <DependentUpon>CaptureDetails.aspx</DependentUpon>
