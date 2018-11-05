@@ -99,6 +99,7 @@
     <Content Include="Ads.xml" />
     <Content Include="App.xml" />
     <Content Include="Calculator.aspx" />
+    <Content Include="CalendarCustomization.aspx" />
     <Content Include="CalendarDemo.aspx" />
     <Content Include="CaptureDetails.aspx" />
     <Content Include="ColorChanger.aspx" />
@@ -135,6 +136,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="SuccessPage.aspx" />
+    <Content Include="ValidationControls1.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -152,6 +154,13 @@
     </Compile>
     <Compile Include="Calculator.aspx.designer.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarCustomization.aspx.cs">
+      <DependentUpon>CalendarCustomization.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalendarCustomization.aspx.designer.cs">
+      <DependentUpon>CalendarCustomization.aspx</DependentUpon>
     </Compile>
     <Compile Include="CalendarDemo.aspx.cs">
       <DependentUpon>CalendarDemo.aspx</DependentUpon>
@@ -261,6 +270,13 @@
     </Compile>
     <Compile Include="SuccessPage.aspx.designer.cs">
       <DependentUpon>SuccessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControls1.aspx.cs">
+      <DependentUpon>ValidationControls1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationControls1.aspx.designer.cs">
+      <DependentUpon>ValidationControls1.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
