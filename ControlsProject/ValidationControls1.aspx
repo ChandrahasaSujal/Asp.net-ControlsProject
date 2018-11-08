@@ -14,7 +14,7 @@
             <asp:RequiredFieldValidator ID="rfv1" runat="server" ControlToValidate="txtName" ErrorMessage="Can't leave field entry" SetFocusOnError="true" Display="Dynamic" ForeColor="red"/>
             <br />
             Select Country
-            <asp:DropDownList ID="ddlCountry" runat="server">
+            <asp:DropDownList ID="ddlCountry" runat="server" >
                 <asp:ListItem Text="-Select Country-" Value="c" />
                 <asp:ListItem Text="India" Value="c1" />
                 <asp:ListItem Text="Japan" Value="c2" />
@@ -24,7 +24,8 @@
                 <asp:ListItem Text="Srilanka" Value="c6" />
             </asp:DropDownList>
             <asp:RequiredFieldValidator ID="rfv2" runat="server" ControlToValidate="ddlCountry" ForeColor="Red" Display="Dynamic" InitialValue="c" ErrorMessage="Select Country" SetFocusOnError="true"/>
-            <asp:Button ID="btnSubmit" Text="Submit" runat="server" />
+            <br />
+            <asp:Button ID="btnSubmit" Text="Submit" runat="server" OnClick="btnSubmit_Click" />
         </div>
     </form>
 </body>

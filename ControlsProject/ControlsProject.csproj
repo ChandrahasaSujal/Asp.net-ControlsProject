@@ -137,6 +137,8 @@
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="SuccessPage.aspx" />
     <Content Include="ValidationControls1.aspx" />
+    <Content Include="ValidationControls3.aspx" />
+    <Content Include="ValidtionControls2.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -277,6 +279,20 @@
     </Compile>
     <Compile Include="ValidationControls1.aspx.designer.cs">
       <DependentUpon>ValidationControls1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControls3.aspx.cs">
+      <DependentUpon>ValidationControls3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationControls3.aspx.designer.cs">
+      <DependentUpon>ValidationControls3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidtionControls2.aspx.cs">
+      <DependentUpon>ValidtionControls2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidtionControls2.aspx.designer.cs">
+      <DependentUpon>ValidtionControls2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

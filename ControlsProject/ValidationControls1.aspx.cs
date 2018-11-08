@@ -11,7 +11,17 @@ namespace ControlsProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(rfv1.IsValid && rfv2.IsValid)
+            if(!IsPostBack)
+            {
+                txtName.Focus();
+                txtName.Attributes.Add("onblur", "ValidatorValidate(rfv1)");
+            }
+            
+        }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            if (rfv1.IsValid && rfv2.IsValid)
                 Response.Write("Data is Stored");
             else
                 Response.Write("Data Validation Failed");
