@@ -139,6 +139,7 @@
     <Content Include="ValidationControls1.aspx" />
     <Content Include="ValidationControls3.aspx" />
     <Content Include="ValidationControls4.aspx" />
+    <Content Include="ValidationControls5.aspx" />
     <Content Include="ValidtionControls2.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -294,6 +295,13 @@
     </Compile>
     <Compile Include="ValidationControls4.aspx.designer.cs">
       <DependentUpon>ValidationControls4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControls5.aspx.cs">
+      <DependentUpon>ValidationControls5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationControls5.aspx.designer.cs">
+      <DependentUpon>ValidationControls5.aspx</DependentUpon>
     </Compile>
     <Compile Include="ValidtionControls2.aspx.cs">
       <DependentUpon>ValidtionControls2.aspx</DependentUpon>
