@@ -118,6 +118,7 @@
     <Content Include="LoadingDataListControls.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="MultiViewDemo.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -253,6 +254,13 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiViewDemo.aspx.cs">
+      <DependentUpon>MultiViewDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiViewDemo.aspx.designer.cs">
+      <DependentUpon>MultiViewDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages.aspx.cs">
       <DependentUpon>Pages.aspx</DependentUpon>
