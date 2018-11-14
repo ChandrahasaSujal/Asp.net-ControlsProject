@@ -137,6 +137,8 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="SuccessPage.aspx" />
+    <Content Include="TestUserCalendar.aspx" />
+    <Content Include="UserControls\UserCalendar.ascx" />
     <Content Include="Validation5.aspx" />
     <Content Include="ValidationControls1.aspx" />
     <Content Include="ValidationControls3.aspx" />
@@ -283,6 +285,20 @@
     </Compile>
     <Compile Include="SuccessPage.aspx.designer.cs">
       <DependentUpon>SuccessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestUserCalendar.aspx.cs">
+      <DependentUpon>TestUserCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestUserCalendar.aspx.designer.cs">
+      <DependentUpon>TestUserCalendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserCalendar.ascx.cs">
+      <DependentUpon>UserCalendar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserCalendar.ascx.designer.cs">
+      <DependentUpon>UserCalendar.ascx</DependentUpon>
     </Compile>
     <Compile Include="Validation5.aspx.cs">
       <DependentUpon>Validation5.aspx</DependentUpon>

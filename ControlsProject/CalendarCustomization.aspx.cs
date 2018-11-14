@@ -47,7 +47,14 @@ namespace ControlsProject
 
         protected void cld_VisibleMonthChanged(object sender, MonthChangedEventArgs e)
         {
-            
+            if(e.NewDate.Month==DateTime.Now.Month&&e.NewDate.Year==DateTime.Now.Year)
+            {
+                cld.PrevMonthText = "";
+            }
+            else
+            {
+                cld.PrevMonthText = "&lt;";
+            }
         }
     }
 }
