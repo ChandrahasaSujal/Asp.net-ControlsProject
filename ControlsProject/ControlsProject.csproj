@@ -78,6 +78,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="ServerControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ServerControl\ServerControl\bin\ServerControl.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -98,6 +102,12 @@
     <Content Include="Ads.aspx" />
     <Content Include="Ads.xml" />
     <Content Include="App.xml" />
+    <Content Include="App_Themes\Automn\AutomnSS.css" />
+    <Content Include="App_Themes\Automn\Images\Automn.jpg" />
+    <Content Include="App_Themes\Spring\Images\Spring.jpg" />
+    <Content Include="App_Themes\Spring\SpringSS.css" />
+    <Content Include="App_Themes\Winter\Images\Winter.jpg" />
+    <Content Include="App_Themes\Winter\WinterSS.css" />
     <Content Include="Calculator.aspx" />
     <Content Include="CalendarCustomization.aspx" />
     <Content Include="CalendarDemo.aspx" />
@@ -109,7 +119,7 @@
     <Content Include="FileUploadMultiple.aspx" />
     <Content Include="FileUploadWithCondtions.aspx" />
     <Content Include="HomePage.html" />
-    <Content Include="Icons\calendar_view_week.png" />
+    <Content Include="Icons\calendar.png" />
     <Content Include="Images\fb.png" />
     <Content Include="Images\google.png" />
     <Content Include="Images\microsoft.png" />
@@ -123,6 +133,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Themes\Automn\AutomnSkin.skin" />
+    <Content Include="App_Themes\Spring\SpringSkin.skin" />
+    <Content Include="App_Themes\Winter\WinterSkin.skin" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -134,9 +147,11 @@
     <Content Include="Global.asax" />
     <Content Include="Pages.aspx" />
     <Content Include="RadioAndCheck.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="SuccessPage.aspx" />
+    <Content Include="TestServerCalendar.aspx" />
     <Content Include="TestUserCalendar.aspx" />
     <Content Include="UserControls\UserCalendar.ascx" />
     <Content Include="Validation5.aspx" />
@@ -279,12 +294,26 @@
     <Compile Include="RadioAndCheck.aspx.designer.cs">
       <DependentUpon>RadioAndCheck.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SuccessPage.aspx.cs">
       <DependentUpon>SuccessPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SuccessPage.aspx.designer.cs">
       <DependentUpon>SuccessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestServerCalendar.aspx.cs">
+      <DependentUpon>TestServerCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestServerCalendar.aspx.designer.cs">
+      <DependentUpon>TestServerCalendar.aspx</DependentUpon>
     </Compile>
     <Compile Include="TestUserCalendar.aspx.cs">
       <DependentUpon>TestUserCalendar.aspx</DependentUpon>
