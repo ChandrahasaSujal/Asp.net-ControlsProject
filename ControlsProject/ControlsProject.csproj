@@ -120,14 +120,17 @@
     <Content Include="FileUploadWithCondtions.aspx" />
     <Content Include="HomePage.html" />
     <Content Include="Icons\calendar.png" />
+    <Content Include="Images\Header.jpg" />
     <Content Include="Images\fb.png" />
     <Content Include="Images\google.png" />
     <Content Include="Images\microsoft.png" />
+    <Content Include="Images\Footer.png" />
     <Content Include="Images\twitter.png" />
     <Content Include="ListControls.aspx" />
     <Content Include="LoadingDataListControls.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="MultiLangRegistrationForm.aspx" />
     <Content Include="MultiViewDemo.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -136,6 +139,15 @@
     <Content Include="App_Themes\Automn\AutomnSkin.skin" />
     <Content Include="App_Themes\Spring\SpringSkin.skin" />
     <Content Include="App_Themes\Winter\WinterSkin.skin" />
+    <Content Include="TestMaster.Master" />
+    <Content Include="Home.aspx" />
+    <Content Include="Mission.aspx" />
+    <Content Include="About.aspx" />
+    <Content Include="SCGSite.Master" />
+    <Content Include=".aspx" />
+    <Content Include="CSharp.aspx" />
+    <Content Include="Asp.aspx" />
+    <Content Include="Sql.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -272,6 +284,13 @@
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MultiLangRegistrationForm.aspx.cs">
+      <DependentUpon>MultiLangRegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiLangRegistrationForm.aspx.designer.cs">
+      <DependentUpon>MultiLangRegistrationForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MultiViewDemo.aspx.cs">
       <DependentUpon>MultiViewDemo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -301,12 +320,26 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SCGSite.Master.cs">
+      <DependentUpon>SCGSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SCGSite.Master.designer.cs">
+      <DependentUpon>SCGSite.Master</DependentUpon>
+    </Compile>
     <Compile Include="SuccessPage.aspx.cs">
       <DependentUpon>SuccessPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SuccessPage.aspx.designer.cs">
       <DependentUpon>SuccessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestMaster.Master.cs">
+      <DependentUpon>TestMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestMaster.Master.designer.cs">
+      <DependentUpon>TestMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="TestServerCalendar.aspx.cs">
       <DependentUpon>TestServerCalendar.aspx</DependentUpon>
@@ -378,10 +411,71 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mission.aspx.cs">
+      <DependentUpon>Mission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mission.aspx.designer.cs">
+      <DependentUpon>Mission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include=".aspx.cs">
+      <DependentUpon>.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include=".aspx.designer.cs">
+      <DependentUpon>.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CSharp.aspx.cs">
+      <DependentUpon>CSharp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSharp.aspx.designer.cs">
+      <DependentUpon>CSharp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Asp.aspx.cs">
+      <DependentUpon>Asp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Asp.aspx.designer.cs">
+      <DependentUpon>Asp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sql.aspx.cs">
+      <DependentUpon>Sql.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sql.aspx.designer.cs">
+      <DependentUpon>Sql.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MultiLangRegistrationForm.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MultiLangRegistrationForm.aspx.hi.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MultiLangRegistrationForm.aspx.te.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MultiLangRegistrationForm.aspx.fr-FR.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

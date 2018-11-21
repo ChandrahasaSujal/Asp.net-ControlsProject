@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SCGSite.master.cs" Inherits="ControlsProject.SCGSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <style>
+           
+        </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 68px">
+    <form id="form1" runat="server">
+        <table align="center" width="100%" border="1">
+            <tr>
+                <td colspan="2" width="100%" height="50px"><asp:Image ID="imgHead" runat="server" ImageUrl="~/Images/fb.png" Height="50px" Width="100%"/></td>
+            </tr>
+            <tr height="500px">
+                <td width="25%">
+                    Courses Offered:<br />
+                    <ol>
+                        <li><asp:HyperLink ID="hlCharp" runat="server" NavigateUrl="~/CSharp.aspx">CSharp</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hlAsp" runat="server" NavigateUrl="~/Asp.aspx">ASP</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="hlSql" runat="server" NavigateUrl="~/Sql.aspx">SQL Server</asp:HyperLink></li>
+                    </ol>
+                    <br />
+                    Start Date:<asp:ContentPlaceHolder ID="plSD" runat="server" ></asp:ContentPlaceHolder>
+                    <br />
+                    Batxh Time:
+                    <asp:ContentPlaceHolder ID="phBT" runat="server"></asp:ContentPlaceHolder>
+                    <br />
+                    Fees:
+                    <asp:ContentPlaceHolder ID="phFees" runat="server"></asp:ContentPlaceHolder>
+                    <br />
+                    Faculty:<asp:Label ID="lblFaculty" runat="server" Text=""></asp:Label>
+                </td>
+                <td width="75%" >
+                    <asp:ContentPlaceHolder ID="phContent" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" width="100%">
+                    <asp:Image ID="imgFooter" runat="server" ImageUrl="~/Images/Footer.png" Height="42px" Width="100%"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

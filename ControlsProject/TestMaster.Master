@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TestMaster.master.cs" Inherits="ControlsProject.TestMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1 align="center">CHANDRA SOFTWARE SOLUTIONS</h1>
+        </div>
+        <div align="center" style="background-color:coral">
+            <asp:HyperLink ID="hlHome" runat="server"  Text="Home" NavigateUrl="~/Home.aspx"/> &nbsp;
+            <asp:HyperLink ID="hlMission" runat="server"  Text="Mission" NavigateUrl="~/Mission.aspx"/>&nbsp;
+            <asp:HyperLink ID="hlAbout" runat="server"  Text="About" NavigateUrl="~/About.aspx"/>
+        </div>
+        <asp:ContentPlaceHolder ID="cph1" runat="server"></asp:ContentPlaceHolder>
+        <div style="background-color:brown"><address align="center">Contact Us: +91-88803 63711</address></div>
+    </form>
+</body>
+</html>
