@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnRegisterResource1.Text" xml:space="preserve">
-    <value>Register:</value>
+    <value>Register</value>
   </data>
   <data name="lblAddressResource1.Text" xml:space="preserve">
     <value>Address:</value>

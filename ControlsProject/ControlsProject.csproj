@@ -463,6 +463,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="BackUp\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
